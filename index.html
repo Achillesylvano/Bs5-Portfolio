@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color: rgb(6, 6, 46);">
+      <div class="container">
+          <a class="navbar-brand" href="#">My Porfolio</a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+              <span class="visually-hidden">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navcol-1">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Navbar -->
+
+  <main>
+
+    <!-- home-section -->
+    <section id="home" style="background-image: linear-gradient(rgba(6, 6, 46, 0.5),rgba(7, 7, 49, 0.473)), url('assets/img/bg/image1.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;height: 100vh;">
+      <div class="container d-flex justify-content-center align-items-center h-100">
+        <div class="text-center text-white">
+          <p class="home-title">I am Achille Sylvano</p>
+          <p class="home-subtitle">Web Developer</p>
+        </div>
+      </div>
+    </section>
+    <!-- End home-section -->
+
+  <!-- About-section -->
+  <section id="about">
+    <div class="container py-5">
+      <div class="text-center p-4">
+        <h2 class="text-info">Info</h2>
+      </div>
+      <div class="row gutters">
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+        <div class="card h-100">
+          <div class="card-body">
+              <div class="account-settings">
+                  <div class="">
+                      <div class="text-center m-1 p-1">
+                          <img src="assets/img/avatars/avatar.png" alt="Maxwell Admin">
+                          <h5>Achille Sylvano</h5>
+                      </div>
+                      
+                      <h6><i class="bi bi-envelope-fill"></i>&nbsp;<a href="#" class="link-primary">achillesylvanoo@gmail.com</a></h6>
+                      <h6><i class="bi bi-github"></i>&nbsp;<a href="#" class="link-primary">achillesylvano</a></h6>
+                      <h6><i class="bi bi-facebook"></i>&nbsp;<a href="#" class="link-primary">Achille Sylvano</a></h6>
+                    </div>
+                    <hr>
+                  <div class="mt-5">
+                      <h5 class="text-primary mt-3 text-decoration-underline">About</h5>
+                      <p>I'm Achille. Web Developer I love technology and its evolution.</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="row gutters p-2">
+              <p class="text-info fs-3">Skills</p>
+              <span>HTML</span>
+              <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 100%;">100%</div>
+              </div>
+              <span>CSS3</span>
+              <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 100%;">100%</div>
+              </div>
+              <span>PHP</span>
+              <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 100%;">100%</div>
+              </div>
+              <span>JAVASCRIPT</span>
+              <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" >85%</div>
+              </div>
+              <span>Bootstrap / Tailwind css</span>
+              <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" >85%</div>
+              </div>
+              <span>Laravel</span>
+              <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" >85%</div>
+              </div>            
+            </div>
+            <button type="button" class="btn btn-dark">Download CV</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end About-section -->
+
+  <!-- Project-section -->
+  <section id="project">
+    <div class="container py-5">
+        <div class="text-center p-4">
+            <h2 class="text-info">Project</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-lg-4">
+              <div class="card text-center m-3"><img class="card-img-top w-100 d-block" src="assets/img/bg/crud-laravel.png" />
+                  <div class="card-body">
+                    <h4 class="card-title">Simple-crud</h4>
+                    <p class="card-text">Laravel/Tailwind css</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+              <div class="card text-center m-3"><img class="card-img-top w-100 d-block" src="assets/img/bg/admin-php.png" />
+                  <div class="card-body">
+                    <h4 class="card-title">Admin Dashboard</h4>
+                    <p class="card-text">Php/Bootstrap</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+              <div class="card text-center m-3"><img class="card-img-top w-100 d-block" src="assets/img/bg/crud-php.png" />
+                  <div class="card-body">
+                    <h4 class="card-title">Simple-crud</h4>
+                    <p class="card-text">Php/Bootstrap</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- End Project-section -->
+
+    <!-- Contact-section -->
+    <section id="contact" >
+      <div class="container py-5">
+          <div class="text-info text-center p-4">
+              <h2>Contact me</h2>
+          </div>
+          <form class=" contact-clean rounded-1 px-5 py-5 m-auto w-auto">
+              <div class="mb-3"><label class="form-label" for="name">Your Name</label><input class="form-control item" type="text" id="name"></div>
+              <div class="mb-3"><label class="form-label" for="subject">Subject</label><input class="form-control item" type="text" id="subject"></div>
+              <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control item" type="email" id="email"></div>
+              <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control item" id="message"></textarea></div>
+              <div class="mb-3"><button class="btn btn-primary btn-lg d-block w-100" type="submit">Submit Form</button></div>
+          </form>
+      </div>
+    </section>
+    <!-- End contact-section -->
+    
+  </main>
+  <footer class="bg-white sticky-footer pt-4">
+    <div class="container my-auto">
+        <div class="text-center my-auto copyright"><span>Copyright © Portfolio 2023</span></div>
+    </div>
+  </footer>
+    
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
